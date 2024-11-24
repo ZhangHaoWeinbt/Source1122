@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cw0apv8uikpwu"]
+
+[ext_resource type="Shader" uid="uid://bdpe1ix5arl7h" path="res://Tree/Tree_255008/MF_Tree255008_Leaves.tres" id="1_8w3c2"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_8w3c2")
+shader_parameter/ColorSaturate = Color(0.854902, 0.854902, 0.854902, 1)
+shader_parameter/Color = Color(0.933333, 0.933333, 0.933333, 1)
+shader_parameter/BottomColor = Color(0, 0.239216, 0.494118, 1)
+shader_parameter/TopColor = Color(0.984314, 1, 0.862745, 1)
+shader_parameter/Metallic = Color(0.0980392, 0.0980392, 0.0980392, 1)
+shader_parameter/Roughness = Color(0.494118, 0.494118, 0.494118, 1)
+shader_parameter/Specular = Color(0.298039, 0.298039, 0.298039, 1)
+shader_parameter/Light = Color(0.160784, 0.160784, 0.160784, 1)
+shader_parameter/AOColor = Color(0.776471, 0.776471, 0.776471, 1)
+shader_parameter/BackLightSaturate = Color(0.203922, 0.203922, 0.203922, 1)
+shader_parameter/BackLightColor = Color(1.2, 1.2, 1.2, 1)
